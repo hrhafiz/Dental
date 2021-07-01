@@ -1,0 +1,352 @@
+@media (min-width:0px) and (max-width:420px) {
+  .logo-content{
+    display: none;
+  }
+  .logo{
+    margin: auto;
+  }
+  .navbar-brand{
+    display: inherit;
+    padding-left: 15px;
+  }
+  .navbar{
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 14px;
+}
+.appoint{
+ color: #fff !important;
+ transition: .4s all ease-in-out;
+ text-transform: uppercase;
+ text-align: center;
+}
+header{
+  margin-bottom: 10px;
+}
+.width {
+  flex-direction: column-reverse;
+}
+.hero-content {
+  padding-bottom: 22px;
+  text-align: center;
+}
+.hero-content h3 {
+  font-size: 21px;
+}
+.hero-content h2{
+    
+  font-size: 27px;
+  }
+  .hero-content p {
+    font-size: 14px;
+}
+.Wellcome-details {
+  text-align: center;
+}
+.Wellcome-details h1 {
+  font-size: 22px;
+  padding-top: 27px;
+}
+.heading {
+  width: 85%;
+}
+.service-item {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.service {
+  padding-bottom: 0px !important;
+}
+.pricing-plan {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.pricing .row {
+  --bs-gutter-x: 0 !important;
+}
+.centr{
+  text-align: center;
+
+
+}
+footer h1 {
+  text-align: center;
+}
+footer h2 {
+  text-align: center;
+}
+.owl-nav .owl-prev{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+.owl-nav .owl-next{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+}
+@media (min-width:0px) And (max-width:375px) {
+  .owl-nav .owl-prev{
+    position: absolute;
+    top: 50%;
+    left: 6%;
+    transform: translateY(-50%);
+  }
+  .owl-nav .owl-next{
+    position: absolute;
+    top: 50%;
+    right: 3%;
+    transform: translateY(-50%);
+  }
+  .navbar {
+    padding-right: 15px;
+  }
+  .heading p {
+    font-size: 13px;
+  }
+    .service-item p {
+      font-size: 13px;
+  }
+  .service-item .link {
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+
+  /* ending point  */
+}
+@media (min-width:0px) And (max-width:320px) {
+ 
+
+   /* ending point  */
+}
+@media (min-width:421px) And (max-width:575px) {
+  .logo-content{
+    display: none;
+  }
+  .logo{
+    margin: auto;
+  }
+  .navbar-brand{
+    display: inherit;
+    padding-left: 15px;
+  }
+  .navbar{
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 14px;
+}
+.appoint{
+  padding-left: 20px;
+  padding-right: 34px;
+  color: #fff !important;
+  transition: .4s all ease-in-out;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: 12px;
+}
+header{
+  margin-bottom: 0px;
+}
+.width {
+  flex-direction: column-reverse;
+}
+.hero-content {
+  padding-bottom: 22px;
+  text-align: center;
+}
+.hero-content h3 {
+  font-size: 21px;
+}
+.hero-content h2{
+    
+  font-size: 27px;
+  }
+  .hero-content p {
+    font-size: 14px;
+}
+.Wellcome-details {
+  text-align: center;
+}
+.Wellcome-details h1 {
+  font-size: 22px;
+  padding-top: 27px;
+}
+.heading {
+  width: 85%;
+}
+.service-item {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.service {
+  padding-bottom: 0px !important;
+}
+.pricing-plan {
+  width: 68%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.centr{
+  text-align: center;
+
+
+}
+footer h1 {
+  text-align: center;
+}
+footer h2 {
+  text-align: center;
+}
+.owl-nav .owl-prev{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+}
+.owl-nav .owl-next{
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+.hero-content {
+  width: 87%;
+  margin: auto;
+}
+.service-item .service-header {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.service-item{
+  text-align: center;
+}
+.heading p {
+  font-size: 13px;
+}
+  .service-item p {
+    font-size: 13px;
+    width: 83%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.service-item .link {
+  font-size: 15px;
+  display: block;
+  text-align: center;
+}
+.wid{
+  width: 75%;
+  margin: auto;
+}
+.wellcome .m {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.meet .col-md-4{
+  width: 68%;
+  margin: auto;
+}
+footer p {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+   /* ending point  */
+}
+@media (min-width:576px) And (max-width:767px) {
+  .appoint {
+    margin-right: 50px;
+}
+.logo-part ul li:last-child {
+  display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  margin-left: 14px;
+}
+.width {
+  text-align: center;
+}
+.learn {
+  margin-right: 8px !important;
+}
+.owl-nav .owl-prev {
+  left: -19%;
+}
+.owl-nav .owl-next {
+  right: -14%;
+}
+.doctor {
+  display: none;
+}
+.Wellcome-details{
+  text-align: center;
+}
+.heading {
+  width: 75%;
+}
+.meet .col-md-4 {
+  width: 72%;
+  margin: auto;
+}
+.service-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.service-item .service-header {
+  align-items: center;
+  justify-content: center;
+}
+.centr{
+  text-align: center;
+}
+.wid{
+  width: 75%;
+  margin: auto;
+}
+footer h2 {
+  text-align: center;
+}
+   /* ending point  */
+}
+@media (min-width:768px) And (max-width:991px) {
+  .logo-part ul li:last-child {
+    display: none;
+  }
+  .logo-part ul li h3 {
+    font-size: 17px;
+}
+.navbar-expand-md .navbar-collapse {
+  margin-left: 30px;
+}
+.appoint {
+  margin-right: 60px;
+}
+.Wellcome-details {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer h2 span {
+  margin-left: 1px;
+  font-size: 11px;
+}
+
+
+   /* ending point  */
+}
