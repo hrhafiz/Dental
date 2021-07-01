@@ -52,13 +52,30 @@ header{
 .heading {
   width: 85%;
 }
-.service-item {
-  width: 90%;
-  margin: auto;
+.service .col-md-4{
   margin-bottom: 30px;
 }
-.service {
-  padding-bottom: 0px !important;
+.service-item .service-header {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.service-item{
+  text-align: center;
+}
+.heading p {
+  font-size: 13px;
+}
+  .service-item p {
+    font-size: 13px;
+    width: 83%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.service-item .link {
+  font-size: 15px;
+  display: block;
+  text-align: center;
 }
 .pricing-plan {
   width: 90%;
