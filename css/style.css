@@ -44,6 +44,59 @@ html{
 .navbar {
   padding: 0 !important;
 }
+.theme-fluoYellow.introLoader.counterLoader .counterLoaderBox {
+  color: #000;
+  transition: all 1s ease-in;
+  position: relative;
+  height: 40px;
+  width: 30vh;
+  line-height: 40px;
+  animation: color 3s forwards 2s;
+}
+@keyframes color {
+  
+  0%{
+    color: #fff;
+  }
+  100%{
+    color: #fff;
+  }
+}
+
+.theme-fluoYellow.introLoader.counterLoader .counterLoaderBox::after {
+  content: '';
+  position: absolute;
+  background-color: #02a5b8;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+
+  display: block;
+  z-index: -1;
+  -webkit-animation: progressBar 3s ease-in;
+  -webkit-animation-fill-mode:both; 
+  -moz-animation: progressBar 3s ease-in;
+  -moz-animation-fill-mode:forward; 
+ 
+}
+
+.theme-fluoYellow.introLoader.counterLoader {
+  background: #fff;
+p
+}
+@-webkit-keyframes progressBar {
+  0% { width: 0%; 
+  }
+  100% { width: 100%; }
+}
+
+@-moz-keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
 
 
  /* hero parts starts  */
